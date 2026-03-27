@@ -86,14 +86,14 @@
             </ul>
             <div class="d-flex gap-2">
                 @auth
-                    <a href="{{ url('https://app.fastfatoora.com/dashboard') }}" class="btn btn-light border">Go to My Account</a>
+                    <a href="{{ url('https://demo.fastfatoora.com/dashboard') }}" class="btn btn-light border">Go to My Account</a>
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
                         <button type="submit" class="btn btn-outline-danger">Logout</button>
                     </form>
                 @else
-                    <a href="{{ url('https://app.fastfatoora.com/login') }}" class="btn btn-light border px-3 py-2" style="font-size:.875rem;">Login</a>
-                    <a href="{{ url('https://app.fastfatoora.com/register') }}" class="btn px-3 py-2 fw-semibold text-white" style="background:var(--emerald);border:none;font-size:.875rem;">Get Started Free</a>
+                    <a href="{{ url('https://demo.fastfatoora.com/login') }}" class="btn btn-light border px-3 py-2" style="font-size:.875rem;">Login</a>
+                    <a href="{{ url('https://demo.fastfatoora.com/register') }}" class="btn px-3 py-2 fw-semibold text-white" style="background:var(--emerald);border:none;font-size:.875rem;">Get Started Free</a>
                 @endauth
 
             </div>
