@@ -1,0 +1,7 @@
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <text x="180" y="85" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="64" font-weight="700" letter-spacing="-2">
+      <tspan fill="#FFFFFF">M</tspan><tspan fill="#5DCAA5">i</tspan><tspan fill="#FFFFFF">Fatoora</tspan>
+  </text>
+  <text x="180" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="4" fill="#AAAAAA">DIGITAL INVOICING SOLUTIONS</text>
+  <rect x="40" y="99" width="280" height="1.5" rx="1" fill="#5DCAA5" opacity="0.6"/>
+</svg>
