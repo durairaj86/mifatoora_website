@@ -91,6 +91,7 @@
                         @csrf
                         <button type="submit" class="btn btn-outline-danger">Logout</button>
                     </form>
+
                 @else
                     <a href="{{ url('https://demo.fastfatoora.com/login') }}" class="btn btn-light border px-3 py-2" style="font-size:.875rem;">Login</a>
                     <a href="{{ url('https://demo.fastfatoora.com/register') }}" class="btn px-3 py-2 fw-semibold text-white" style="background:var(--emerald);border:none;font-size:.875rem;">Get Started Free</a>
