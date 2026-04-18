@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Features | LedgerOS — Comprehensive Saudi Accounting</title>
+    <title>Features | MiFatoora — Comprehensive Saudi Accounting</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -71,7 +71,7 @@
     <div class="container">
         <a class="navbar-brand text-dark" href="/" style="color: #0d6efd">
             {{--SAUD<span>Invoice<small>.com</small></span>--}}
-            <img src="{{ asset('img/logo.png') }}" alt="Logo" style="width: 250px; height: auto;">
+            <img src="{{ asset('img/logo-light.svg') }}" alt="Logo" style="width: 250px; height: auto;">
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
@@ -86,17 +86,17 @@
             </ul>
             <div class="d-flex gap-2">
                 @auth
-                    <a href="{{ url('https://demo.fastfatoora.com/dashboard') }}" class="btn btn-light border">Go to My Account</a>
+                    <a href="{{ url('/dashboard') }}" class="btn btn-light border">Go to My Account</a>
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
                         <button type="submit" class="btn btn-outline-danger">Logout</button>
                     </form>
-
                 @else
-                    <a href="{{ url('https://demo.fastfatoora.com/login') }}" class="btn btn-light border px-3 py-2" style="font-size:.875rem;">Login</a>
-                    <a href="{{ url('https://demo.fastfatoora.com/register') }}" class="btn px-3 py-2 fw-semibold text-white" style="background:var(--emerald);border:none;font-size:.875rem;">Get Started Free</a>
+                    <a href="{{ route('login') }}" class="btn btn-light border px-3 py-2" style="font-size:.875rem;">Login</a>
+                    @if (Route::has('register'))
+                        <a href="/register" class="btn px-3 py-2 fw-semibold text-white" style="background:var(--emerald);border:none;font-size:.875rem;">Get Started Free</a>
+                    @endif
                 @endauth
-
             </div>
         </div>
     </div>
