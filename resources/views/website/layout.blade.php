@@ -104,7 +104,7 @@
     <div class="container pt-3">
         <div class="row g-4 pb-4" style="border-bottom:1px solid rgba(255,255,255,.07);">
             <div class="col-lg-4">
-                <a class="text-white text-decoration-none font-display fw-bold d-block mb-3" style="font-size:1.4rem;" href="/">SAUD<span style="color:var(--emerald);">Invoice</span></a>
+                <a class="text-white text-decoration-none font-display fw-bold d-block mb-3" style="font-size:1.4rem;" href="/">Mi<span style="color:var(--emerald);">Invoice</span></a>
                 <p style="font-size:.85rem;color:rgba(255,255,255,.35);max-width:260px;line-height:1.65;">The next generation of financial management for Saudi enterprises. ZATCA Phase 2 certified.</p>
             </div>
             <div class="col-6 col-lg-2">
